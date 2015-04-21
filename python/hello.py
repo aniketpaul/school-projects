@@ -1,5 +1,13 @@
-# this is the simplest python program
+import random
+def tt():
+    random.choice([1,2,3,4])
 
-print ("Hello world from Cloud9!")
+def main():
+#    tt()
+    print 'Hi How are you?'
+    #h = raw_input('Hello')
+    #print h
 
-# click the 'Run' button at the top to start this application
+
+if __name__ == "__main__":
+    main()
